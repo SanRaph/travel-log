@@ -1,22 +1,22 @@
 ### TODO travel-log
 
-* [] Setup Server
-   * [] Install Dependecies
-   * [] Install /Setup Linter
-   * [] Setup express 
-   * [] Setup Not Found and Error Middlewares (routes)
-* [] Model DB
-   * [] What data will we store?
-* [] Setup Mongoose model(s)
-* [] POST /logs
-   * [] Create a new log entry
-* [] Create a new log entry
-* [] GET /logs
+* [x] Setup Server
+   * [x] Install Dependecies
+   * [x] Install /Setup Linter
+   * [x] Setup express 
+   * [x] Setup Not Found and Error Middlewares (routes)
+* [x] Model DB
+   * [x] What data will we store?
+* [x] Setup Mongoose model(s)
+* [x] POST /logs
+   * [x] Create a new log entry
+* [x] Create a new log entry
+* [x] GET /logs
    * List all log entries
-* [] Setup Client 
-* [] Create Form to add a new entry
-* [] Setup Map SDK on Client
-* [] List all log entries on map
+* [x] Setup Client 
+* [x] Create Form to add a new entry
+* [x] Setup Map SDK on Client
+* [x] List all log entries on map
 
 ### Schema
 {
