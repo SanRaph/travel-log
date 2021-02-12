@@ -14,7 +14,7 @@ const logs = require('./api/logs');
 
 const app = express();
 
-mongoose.connect( 'mongodb://localhost/trave-log', {useNewUrlParser: true, useUnifiedTopology: true,} );
+mongoose.connect( 'mongodb+srv://sanraph:sanraph1990@travel-log.opg3j.mongodb.net/travel-log?retryWrites=true&w=majority', {useNewUrlParser: true, useUnifiedTopology: true,} );
 
 if(process.env.NODE_ENV === 'production') {
     app.use(express.static("client/build"));
